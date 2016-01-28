@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/sort_by_type"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="Sort By Type" />
+        <item
+            android:id="@+id/i2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Extends" />
+        <item
+            android:id="@+id/i3"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Extends" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/online_fragment"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="Online Search" />
+            <item
+                android:id="@+id/offline_fragment"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Offline Note" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:backgroundTint="#d9d8d8"
+    android:background="@drawable/bd_test"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <!--android:background="#d9d8d8"-->
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:layout_width="25dp"
+            android:layout_height="20dp">
+
+            <TextView
+                android:id="@+id/mShowType"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="K"
+                android:background="#4f67a6"
+                android:maxLength="1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textColor="#515050"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Title"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/mShowTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingBottom="5dp"
+            android:ellipsize="end"
+            android:textSize="13sp"
+            android:text="1.Content"
+            android:maxLines="2"
+            android:id="@+id/mShowDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

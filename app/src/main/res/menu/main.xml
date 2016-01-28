@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:id="@+id/refresh_fragment"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        android:title="Refresh" />
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/search_item"
+        android:title="Search" >
+        <menu>
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/search_item_by_title"
+                android:title="Title" />
+
+            <item
+                android:id="@+id/search_item_by_type"
+                android:title="Type" />
+
+            <item
+                android:id="@+id/search_item_by_description"
+                android:title="Description" />
+
+        </menu>
+    </item>
+
+    <item
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="View Mode"
+        android:id="@+id/view_mode" >
+        <menu>
+            <item
+                android:id="@+id/viewMode1"
+                android:title="Mode 1" />
+
+            <item
+                android:title="Mode 2"
+                android:id="@+id/viewMode2"/>
+
+            <item
+                android:title="Mode 3"
+                android:id="@+id/viewMode3"/>
+
+            <item
+                android:title="Mode 4"
+                android:id="@+id/viewMode4"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit" />
+</menu>
